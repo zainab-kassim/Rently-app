@@ -15,7 +15,7 @@ import Link from 'next/link';
 const navigation = [
   { name: 'Homes', href: '/homes' },
   { name: 'Host', href: '/host/home' },
-  { name: 'Messages', href: '/messages' },
+  { name: 'My Profile', href: '/profile' },
 
 ]
 
