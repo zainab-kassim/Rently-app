@@ -156,7 +156,7 @@ export default function pages() {
                   {callout.price}
                 </h2>
                 <h3 className="text-base ml-1 truncate text-gray-900">
-                  <Link href='/view'>
+                  <Link href='/homes/id'>
                     <span className="absolute inset-0" />
                     {callout.description}
                   </Link>

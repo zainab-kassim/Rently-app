@@ -348,10 +348,10 @@ const Homepagebody = () => {
                                     </div>
                                     <p className="text-base ml-1 mt-6 truncate font-semibold text-gray-900">{callout.name}</p>
                                     <h3 className="text-base ml-1 truncate text-gray-600">
-                                        <a href={callout.href}>
+                                        <Link href='/homes/id'>
                                             <span className="absolute inset-0" />
                                             {callout.description}
-                                        </a>
+                                        </Link>
                                     </h3>
                                 </div>
                             ))}
