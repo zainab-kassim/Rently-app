@@ -6,7 +6,7 @@ export default function Layout({ children }) {
         <div className="flex h-screen flex-col">
             <Navbar />
             <main>{children}</main>
-            <Footer />
+            
         </div>
 
     );
