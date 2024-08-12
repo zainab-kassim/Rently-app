@@ -10,7 +10,7 @@ import { useState } from "react"
 import {
     Form,
 } from "@/components/ui/form"
-import { CustomField } from "./CustomField"
+import { CustomField } from "./customField"
 import { isBase64Image } from "@lib/utils"
 import { useUploadThing } from "@lib/uploadthing"
 import { createHome, UpdateHomeById } from "@lib/actions/home.action"
