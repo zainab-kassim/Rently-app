@@ -1,7 +1,15 @@
 import { clerkMiddleware } from "@clerk/nextjs/server";
+import { createRouteMatcher } from "@clerk/nextjs/server";
 
+const isProtectedRoute = createRouteMatcher([
+  '/homes/host(.*)',
+  '/homes/:id/update(.*)',
+  '/myhomes(.*)'
+]);
 
-export default clerkMiddleware();
+export default clerkMiddleware((auth, req) => {
+  if (isProtectedRoute(req)) auth().protect();
+});
 
 export const config = {
   matcher: [

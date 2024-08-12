@@ -1,13 +1,11 @@
-import { Poppins } from "next/font/google";
+import { Inter } from "next/font/google";
 import "@styles/globals.css";
 import {ClerkProvider} from '@clerk/nextjs';
 
 
 
-const poppins = Poppins({
+const inter = Inter({
   subsets: ["latin"],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-poppins',
 });
 
 
@@ -20,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <ClerkProvider >
       <html lang="en">
-        <body className={poppins.className}>
+        <body className={inter.className}>
           {children}
         </body>
       </html>
