@@ -26,15 +26,15 @@ const callouts = [
 export default function Exploresection() {
   return (
     <div className="bg-white py-4 sm:py-4">
-      <div className="mx-auto  px-6 lg:px-8">
+      <div className="mx-auto mt-8  px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <p className="mt-4 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-10 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Everything you need to know about Rently
           </p>
         </div>
       </div>
 
-      <div className="mx-auto w-4/5 px-4 py-10 sm:px-6 sm:py-24 lg:px-8">
+      <div className="mx-auto w-4/5 px-4 py-10 mb-10 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-x-14 gap-y-5 sm:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-14">
           {callouts.map((callout) => (
             <section className="flex flex-col items-center justify-center text-center">

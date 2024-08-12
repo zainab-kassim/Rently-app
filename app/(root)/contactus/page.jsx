@@ -12,7 +12,7 @@ export default function ContactForm() {
 
     return (
         <div className="bg-white flex flex-col min-h-screen">
-            <div className="   max-w-7xl py-16 sm:px-6 sm:py-32 lg:px-8">
+            <div className="mx-auto   max-w-7xl py-16 sm:px-6 sm:py-32 lg:px-8">
                 <div className="relative overflow-hidden bg-white px-6 pt-6 sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
                     <div className="mx-auto max-w-md pt-16 text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
                         <h2 className="text-xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
@@ -27,7 +27,7 @@ export default function ContactForm() {
                     </div>
                     <div className="relative mt-16 h-100 lg:mt-8">
                         <form onSubmit={handleSubmit} className="mx-auto mt-9 max-w-xl sm:mt-10 ">
-                            <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 px-5 sm:px-5 ">
+                            <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 px-6 sm:px-6 ">
                                 <div>
                                     <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
                                         First name

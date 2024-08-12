@@ -14,7 +14,7 @@ export default async function page({ params: { id } }) {
 
   //get home id
   const home = await GetHomeById(id)
-  console.log("home:",home)
+
 
 
 

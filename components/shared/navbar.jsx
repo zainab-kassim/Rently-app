@@ -30,8 +30,8 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     <header className={'fixed inset-x-0 top-0 w-full z-50 bg-gray-100 '}>
       <nav aria-label="Global" className="flex items-center justify-between   p-5 lg:px-8 ">
         <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5">
-            <span className="font-bold text-2xl">Rently</span>
+          <Link href="/" className="-m-1.5 p-1.5 ml-10">
+            <span className="font-bold  text-2xl">Rently</span>
           </Link>
         </div>
         <div className="flex lg:hidden">
