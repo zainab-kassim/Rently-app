@@ -19,6 +19,7 @@ export default async function page({ params: { id } }) {
 
 
   return (
+    
     <div className="bg-white my-20   min-h-screen">
 
 
